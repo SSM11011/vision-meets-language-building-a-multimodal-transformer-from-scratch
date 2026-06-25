@@ -1,0 +1,14 @@
+# Virtual environment
+.venv/
+
+# Datasets (downloaded by scripts; not committed)
+task3/data/
+task1/input.txt
+
+# Run logs
+**/task*_run.log
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

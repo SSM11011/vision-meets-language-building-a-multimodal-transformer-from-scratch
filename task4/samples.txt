@@ -1,0 +1,12 @@
+Task 4 — generated captions (4/10 = 40% exact match)
+============================================================
+[airplane   ] -> 'this is a ship'   (x)
+[automobile ] -> 'this is a truck'   (x)
+[bird       ] -> 'this is a deer'   (x)
+[cat        ] -> 'this is a cat'   (OK)
+[deer       ] -> 'this is a airplane'   (x)
+[dog        ] -> 'this is a dog'   (OK)
+[frog       ] -> 'this is a frog'   (OK)
+[horse      ] -> 'this is a dog'   (x)
+[ship       ] -> 'this is a automobile'   (x)
+[truck      ] -> 'this is a truck'   (OK)

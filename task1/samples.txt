@@ -1,0 +1,21 @@
+===== Bigram model — 200-character sample =====
+
+THAr toud en: ty s come
+
+Pat s, ore wilkigulllo isowanornon ws alinthifofr
+Cuker:
+Thinertor wien IUCUng l t.
+And! he s thaswsantld was w,
+Aue y s Ind benteecofo thime me,
+
+
+API Win he qur s gtht t cam
+
+===== Single-head attention model — 200-character sample =====
+
+ORKHIO:
+AOROLENToatigiste baroth we win thyes t be bers, thard, tung:
+Here ed fornow foue me, louk men hesy pad?
+
+LAkensind tay mens borden.
+Lo utfousorienotes ngst cunt howoute ty dyot san yobacleran
