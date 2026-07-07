@@ -5,6 +5,17 @@
 task3/data/
 task1/input.txt
 
+# Task 6 Flickr8k data + image cache (downloaded/built by scripts; too large for git).
+# Keep vocab.json so the committed best_model.pt is usable without re-deriving the vocab.
+task6/data/*
+!task6/data/vocab.json
+
+# Task 6 resume checkpoint (best_model.pt is the one we keep)
+task6/last.pt
+
+# scratch text dumps
+_handbook*.txt
+
 # Run logs
 **/task*_run.log
 

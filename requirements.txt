@@ -1,4 +1,20 @@
-torch
-torchvision
-numpy
-matplotlib
+# VLM from Scratch — pinned dependencies.
+#
+# Tasks 5–6 (contrastive training on Flickr8k) are GPU-targeted. The versions below
+# are the CUDA 12.6 builds actually used to train the shipped weights on an RTX 4060.
+# Install them from the PyTorch CUDA index:
+#
+#     pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu126
+#
+# CPU-only machine (Tasks 0–4, or slow CPU experiments)? Drop the "+cu126" suffixes
+# and the --extra-index-url, i.e. `pip install torch torchvision numpy matplotlib pillow`.
+
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch==2.12.1+cu126
+torchvision==0.27.1+cu126
+numpy==2.4.4
+matplotlib==3.11.0
+pillow==12.2.0
+
+# Optional — only for the Task 5 "semantic search" applied stretch:
+# sentence-transformers==5.6.0

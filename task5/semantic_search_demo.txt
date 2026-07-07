@@ -1,0 +1,24 @@
+Task 5 Applied Stretch — semantic search demo
+Encoder: all-MiniLM-L6-v2 | corpus: 40 sentences
+============================================================
+Query: 'a pet playing indoors'
+  1. (0.418) A kitten chased a ball of yarn across the living room floor.
+  2. (0.347) The puppy curled up and fell asleep in its owner's lap.
+  3. (0.317) Dogs are loyal companions that love to play fetch in the park.
+  4. (0.284) The cat sat lazily on the warm windowsill in the afternoon sun.
+  5. (0.208) The golden retriever splashed happily through the shallow river.
+
+Query: 'exploring outer space'
+  1. (0.476) NASA launched a new probe to study the rings of Saturn.
+  2. (0.332) Astronomers detected water vapour in the atmosphere of a distant exoplanet.
+  3. (0.236) The old lighthouse guided ships safely past the rocky shore.
+  4. (0.187) The volcano erupted, sending ash miles into the darkening sky.
+  5. (0.165) Researchers trained a neural network to translate ancient scripts.
+
+Query: 'the economy and money'
+  1. (0.377) The central bank raised rates to combat stubbornly high inflation.
+  2. (0.309) Investors poured money into technology startups this quarter.
+  3. (0.207) The startup announced record profits and plans to hire hundreds.
+  4. (0.148) A power outage left thousands of homes without electricity for hours.
+  5. (0.081) The rainforest canopy teems with insects, birds, and hidden mammals.
+
